@@ -123,6 +123,3 @@ Pull requests welcome! If you'd like to request a feature (e.g. fade-in, stereo 
 ## 🐍 Author
 
 Built with ❤️ by \HackerPrat
-
-
-```
