@@ -17,12 +17,6 @@ A Python application that overlays an audio track on top of itself multiple time
 
 ---
 
-## 🖼 GUI Preview
-
-<img src="gui-preview.png" alt="Audio Overlay GUI" width="600"/>
-
----
-
 ## 📦 Requirements
 
 - Python 3.7+
@@ -37,8 +31,8 @@ A Python application that overlays an audio track on top of itself multiple time
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/audio-overlay-repeater.git
-cd audio-overlay-repeater
+git clone https://github.com/HackerPrat/AOR-Audio-Overlay-Repeater-
+cd AOR-Audio-Overlay-Repeater-
 ````
 
 2. Install dependencies:
@@ -61,20 +55,20 @@ pip install pydub
 Just run:
 
 ```bash
-python track.py
+AOR.exe
 ```
 
 * Choose your input and output files
 * Set number of repetitions
 * Set delay in milliseconds
-* Click `Play` to preview or `Export` to save
+* Click `Export` to save
 
 ---
 
 ### 🔹 CLI Mode
 
 ```bash
-python track.py -i input.mp3 -o output.mp3 5 250 --play
+AOR.exe -i input.mp3 -o output.mp3 5 250 --play
 ```
 
 **Arguments:**
@@ -85,14 +79,13 @@ python track.py -i input.mp3 -o output.mp3 5 250 --play
 | `-o`      | Output audio file                     |
 | `repeats` | Number of repetitions                 |
 | `delay`   | Delay between repeats in milliseconds |
-| `--play`  | Play the result after processing      |
 
 ---
 
 ## 📂 Example
 
 ```bash
-python track.py -i sound.mp3 -o layered.mp3 4 300 --play
+AOR.exe -i sound.mp3 -o layered.mp3 4 300
 ```
 
 This will overlay the `sound.mp3` file on itself 4 times, with 300ms delay between each repetition, play it, and save it to `layered.mp3`.
