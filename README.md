@@ -68,7 +68,7 @@ AOR.exe
 ### 🔹 CLI Mode
 
 ```bash
-AOR.exe -i input.mp3 -o output.mp3 5 250 --play
+AOR.exe -i input.mp3 -o output.mp3 5 250
 ```
 
 **Arguments:**
@@ -88,7 +88,7 @@ AOR.exe -i input.mp3 -o output.mp3 5 250 --play
 AOR.exe -i sound.mp3 -o layered.mp3 4 300
 ```
 
-This will overlay the `sound.mp3` file on itself 4 times, with 300ms delay between each repetition, play it, and save it to `layered.mp3`.
+This will overlay the `sound.mp3` file on itself 4 times, with 300ms delay between each repetition and save it to `layered.mp3`.
 
 ---
 
