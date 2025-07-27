@@ -122,16 +122,7 @@ Pull requests welcome! If you'd like to request a feature (e.g. fade-in, stereo 
 
 ## 🐍 Author
 
-Built with ❤️ by \[YourNameHere]
+Built with ❤️ by \HackerPrat
 
-```
 
----
-
-Would you also like:
-- A logo for the project?
-- GitHub Actions to package it into a `.exe` or `.app`?
-- Or a PyInstaller `.exe` bundler for distribution?
-
-Let me know and I’ll generate that next.
 ```
